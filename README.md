@@ -4,4 +4,7 @@ This is my first GoLang Project and has academic purpose only
 ##
 
 
-To run: go run main.go
+To run: go run main.go 
+
+Docker: docker-compose up
+
