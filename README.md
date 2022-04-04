@@ -1,3 +1,3 @@
 # Golang_api - MVC 
-Using GORM with PostgresSQL and Docker.
+Using GORM with PostgreSQL and Docker.
 This is my first GoLang Project and has academic purpose only
