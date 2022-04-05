@@ -9,7 +9,7 @@ import (
 )
 
 func HandleRequest() {
-	r := mux.NewRouter() //instacia do gorilla mux, que é um router de url
+	r := mux.NewRouter() //instancia do gorilla mux, que é um router de url
 	r.HandleFunc("/", controllers.Home)
 	r.HandleFunc("/api/personalidades", controllers.TodasPersonalidades).Methods("GET")
 	r.HandleFunc("/api/personalidades/{id}", controllers.RetornaPersonalidade).Methods("GET")
